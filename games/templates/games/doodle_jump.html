@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+{% block scripting %}
+<script type="text/javascript" src="{% static 'js/lib/p5min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/DoodleJump/DoodleJump.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/DoodleJump/Doodler.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/DoodleJump/Platform.js' %}"></script>
+{% endblock %}

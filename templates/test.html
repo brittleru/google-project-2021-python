@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+<br><br><br><br><br><br><br>
+<div class="container" style="text-align:center;">
+  <h1>You are now logged in!</h1>
+  <h2><a href="{% url 'games:games' %}">Play some games</a></h2>
+  <h2><a href="{% url 'forums:all'%}">Check the forum</a></h2>
+</div>
+
+{% endblock %}

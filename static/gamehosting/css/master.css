@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #222;
+  color: #F8F8F8;
+}
+.games{
+  text-align: center;
+  font-size: 20px;
+}

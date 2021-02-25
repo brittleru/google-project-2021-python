@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+<div class="">
+  {% block scripting %}
+  <div class="container">
+  <!-- <h1 style="text-align:center;">Block Rain</h1> -->
+  <script type="text/javascript" src="{% static 'js/lib/p5min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/BlockRain/BlockRain.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/BlockRain/Block.js' %}"></script>
+
+</div>
+{% endblock %}
+
+</div>

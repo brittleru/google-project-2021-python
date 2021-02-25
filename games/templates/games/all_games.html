@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block games %}
+
+<div class="games" style="text-align:center; font-size:25px;">
+  <br><br><br><br>
+
+<ul style="list-style-type:none;">
+  <li><h2>Arcade games:</h2></li>
+  <li><a href="{% url 'games:block_rain' %}">Block Rain</a></li>
+  <li><a href="{% url 'games:breakout' %}">Breakout</a></li>
+  <li><a href="{% url 'games:catcher' %}">Catcher</a></li>
+  <li><a href="{% url 'games:dodge' %}">Dodge</a></li>
+  <li><a href="{% url 'games:doodle_jump' %}">Doodle Jump</a></li>
+  <li><a href="{% url 'games:fruit_ninja' %}">Fruit Ninja</a></li>
+  <li><a href="{% url 'games:pac_man' %}">Pac Man</a></li>
+  <li><a href="{% url 'games:sky_burger' %}">Sky Burger</a></li>
+  <li><a href="{% url 'games:snake' %}">Snake</a></li>
+  <li><a href="{% url 'games:space_invaders' %}">Space Invaders</a></li>
+  <li><a href="{% url 'games:t_rex' %}">T-Rex</a></li>
+</ul>
+
+</div>
+
+{% endblock %}
